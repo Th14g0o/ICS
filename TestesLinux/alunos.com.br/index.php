@@ -35,7 +35,9 @@
  			echo "<td>" . $linha['id'] . "</td>";
 			echo "<td>" . $linha['nome'] . "</td>";
 			echo "<td>" . $linha['idade'] . "</td>";
-		 	echo "<td><a href='excluir.php?id=" . $linha['id'] . "' >Excluir</a></td>"
+		 	echo "<td><a href='excluir.php?id=" . $linha['id'] . "' >Excluir</a></td>";
+			echo "<td><a href='editar.php?id=" . $linha['id'] . "' >Editar</a></td>";
+			
 			?>
 			
 		</tr>
